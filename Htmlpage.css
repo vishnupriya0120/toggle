@@ -1,0 +1,163 @@
+* {
+    margin:0; padding:0; 
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container {
+    text-align: center;
+}
+.container h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.container div.line{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+.container .underline {
+    width: 35px;
+    height: 2px;
+    border-radius: 5vh;
+    background-color: #50c878;
+}
+
+.container .price-toggler {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    display: inline-block;
+    padding:5px;
+    background-color: #fff;
+    box-shadow:0 7px 8px rgb(173 188 182), 0 1px 2px rgb(173 188 182);
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.price-toggler:hover {
+    transform: scale(1.1);
+
+}
+.container .price-toggler span {
+    padding: 10px 30px;
+    cursor:pointer;
+    color:#50c878;
+    background-color:#50c8785d;
+    border-radius: 20px;
+    font-size: 15px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.price-toggler span:hover {
+    transform:scale(0.9);
+
+
+}
+.container .price-toggler span.active {
+    background-color: #50c878;
+    color: #ffff;
+    border-radius: 20px;
+}
+
+
+.container .packagecontainer {
+    max-width: 1200px;
+    width: 1000px;
+    margin:0 auto;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+
+}
+.container .packagecontainer .amount{
+    margin-top:15px;
+}
+
+.container .packagecontainer .amount span {
+    padding: 2px;
+    text-align: center;
+
+}
+.container .packagecontainer .amount span.price{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.container .packagecontainer .amount span.month{
+    font-size: 15px;
+    color: grey;
+}
+
+.container .packagecontainer .package {
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 7px 8px rgb(173 188 182), 0 1px 2px rgb(173 188 182) ;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+}
+.package:hover {
+    transform: scale(1.1);
+}
+ul {
+    list-style-type: none;
+    padding:15px 0;
+}
+ul li {
+    padding: 5px;
+    font-size:15px;
+    color:grey;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+ul li:hover {
+    text-decoration: underline;
+}
+.container .packagecontainer .package h3 {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+.icon div span{
+    display:flex;
+    justify-content: center;
+    background-color: #50c878;
+    border-radius: 50%;
+    align-items: center;
+    padding: 18px;
+}
+.fa-solid {
+    font-size: 25px;
+    color: white;
+}
+.container .packagecontainer .package .button{
+    margin: 15px;
+    width:250px;
+    display:block;
+    font-size: 15px;
+    background-color:#50c878;
+    color:white;
+    padding: 15px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.container .packagecontainer .package .button:hover{
+    background:#50c878c7;
+    font-weight: bold;
+}
+
+
+
+
+
