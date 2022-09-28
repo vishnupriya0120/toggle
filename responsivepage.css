@@ -1,0 +1,68 @@
+@font-face {
+    font-family:rale ;
+    src: url(rale.ttf);
+}
+*{
+    margin:0; padding:0; 
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5rem;
+    margin:1rem;
+    
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:1em;
+    background-color: rgba(201, 197, 197, 0.414);
+
+}
+.top{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top img.image {
+
+    display: block;
+    max-width: 100%;
+
+}
+.text{
+    padding: 5vh;
+
+}
+.text h1{
+    display: inline;
+    font-family: rale;
+    font-size: 1.5em;
+    padding-bottom:2vh;
+}
+.text p {
+    font-style: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding-bottom:2vh;
+}
+.text h4{
+    font-style: 'Times New Roman', Times, serif;
+    font-size: .9em;
+    padding-bottom:2.5vh;
+    font-weight: bolder;
+}
